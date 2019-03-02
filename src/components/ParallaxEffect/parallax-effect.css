@@ -1,0 +1,37 @@
+.parallax-effect-container {
+  position: relative;
+}
+
+.parallax-image {
+  height: 100vh;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.parallax-text-container {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  width: calc(100vw - 5px);
+  font-size: 9vmax;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -7.5vw;
+}
+
+.parallax-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  word-break: break-word;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
