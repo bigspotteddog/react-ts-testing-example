@@ -1,0 +1,7 @@
+{
+  "supportFile": "cypress/support/index.ts",
+  "reporter": "mocha-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  }
+}
