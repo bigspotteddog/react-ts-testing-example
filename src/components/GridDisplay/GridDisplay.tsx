@@ -21,7 +21,8 @@ export class GridDisplay extends React.Component<GridDisplayProps, {}> {
                 <img
                   src={gridItem}
                   key={`0${i}`}
-                  alt='grid-item'
+                  id={`grid-item-${i}`}
+                  alt='grid-image'
                   className='grid-image'
                 />
               )}

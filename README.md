@@ -1,7 +1,6 @@
 # A Typescript/React Website to demonstrate testing techniques
 
-[![CircleCI](https://circleci.com/gh/YOU54F/react-test-testing-example.svg?style=svg)](https://circleci.com/gh/YOU54F/react-ts-testing-example)
-[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=YOU54F_react-test-testing-example&metric=alert_status)](https://sonarcloud.io/dashboard?id=react-ts-testing-example)
+[![CircleCI](https://circleci.com/gh/YOU54F/react-ts-testing-example.svg?style=svg)](https://circleci.com/gh/YOU54F/react-ts-testing-example)
 
 A website built with React and Typesecript, using a CSS grid layout, to demonstrate various testing techniques.
 

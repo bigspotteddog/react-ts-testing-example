@@ -18,7 +18,9 @@ describe('Example Cypress Test', () => {
     });
 
     it('User can see gallery images', () => {
-      cy.get('gallery_grid').contains('grid-item');
+      cy.get('#gallery_grid').should('be.visible');
+      cy.get('#grid-item-0').should('be.visible');
+      cy.get('#grid-item-14').should('be.visible');
     });
 
     it('User can see parallax effect', () => {
