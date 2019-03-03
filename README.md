@@ -38,11 +38,13 @@ It showcases the use of:-
 
 ## React Unit Testing with Jest & Enzyme
 
-``` To run
+To run
+``` 
 yarn test
 ```
 
-``` To run with coverage
+To run with coverage
+```
 yarn test:coverage
 ```
 
@@ -50,7 +52,8 @@ yarn test:coverage
 
 Compat.js - Static analysis tool for detecting browser compatibility issues in JavaScript and HTML.
 
-```.stylelintrc
+.stylelintrc
+```
 {
    "extends": "stylelint-config-standard",
    "plugins": [
@@ -64,7 +67,8 @@ Compat.js - Static analysis tool for detecting browser compatibility issues in J
  }
 ```
 
-``` To run
+To run
+``` 
 stylelint <path/to/css>
 ```
 
@@ -72,7 +76,8 @@ stylelint <path/to/css>
 
 https://github.com/amilajack/eslint-plugin-compat
 
-``` eslint section from package.json
+eslint section from package.json
+```
  "eslintConfig": {
     "plugins": [
       "compat"
@@ -84,7 +89,8 @@ https://github.com/amilajack/eslint-plugin-compat
   }
 ```
 
-``` To run
+To run
+```
 eslint <path/to/js>
 ```
 
@@ -94,7 +100,8 @@ Compat.js - Static analysis tool for detecting browser compatibility issues in J
 
 https://github.com/jgardella/compat
 
-``` .compatrc.json - note this tool does not use the browserslist configuration, hence listed versions
+.compatrc.json - note this tool does not use the browserslist configuration, hence listed versions
+``` 
 {
   "target": "path/to/js",
   "jsEnvs": ["ie11","chrome74",
@@ -103,11 +110,13 @@ https://github.com/jgardella/compat
 }
 ```
 
-``` To run
+To run
+``` 
 npx compat
 ```
 
-``` Passing the supportedEnvs flag will show available browsers
+Passing the supportedEnvs flag will show available browsers
+```
 npx compat --supportedEnvs
 ```
 
@@ -115,11 +124,13 @@ npx compat --supportedEnvs
 
 We can use `cypress` along with `start-server-and-test` to start our app, run our tests and shutdown our app.
 
-``` To run in commannd line
+To run in commannd line
+```
 yarn run test:ci
 ```
 
-``` To run cypress in GUI mode with the app running in the background
+To run cypress in GUI mode with the app running in the background
+```
 yarn run test:dev
 ```
 
