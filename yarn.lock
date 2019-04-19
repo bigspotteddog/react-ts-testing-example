@@ -977,7 +977,7 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.1.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.4.3":
   version "7.4.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
   integrity sha512-9lsJwJLxDh/T3Q3SZszfWOTkk3pHbkmH+3KY+zwIDmsNlxsumuhS2TH3NIpktU4kNvfzy+k3eLT7aTJSPTo0OA==
@@ -4326,11 +4326,12 @@ cypress-failed-log@2.4.1:
     debug "4.1.1"
     logdown "3.2.7"
 
-cypress-testing-library@2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/cypress-testing-library/-/cypress-testing-library-2.3.4.tgz#1cd1567191fd863257cf6bfcf83cfd058e3c7b17"
-  integrity sha512-OlXDfvFIeYjBZbxIiCaSfByyt8Fms7IHX6U7RsLmWKPWwEpt9HrTQ8/FiVhcovlg5E+vkRL0mx9ZU528WBE7vw==
+cypress-testing-library@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/cypress-testing-library/-/cypress-testing-library-2.4.0.tgz#30e3351dde4d7aebb8ba524141203a2d44f70d3c"
+  integrity sha512-RHTuMZIjTShjTD3UB0vbnRhM5SNwh0yzbH1X/BwH9JtnrsswH+dtroIm2G0NHPTYBS6pkpbTlgM6XDt/caGXiA==
   dependencies:
+    "@babel/runtime" "^7.4.3"
     dom-testing-library "^3.12.4"
 
 cypress@3.1.5:
