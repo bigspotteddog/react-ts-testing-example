@@ -116,7 +116,7 @@
     "react-test-renderer": "16.8.3",
     "shelljs": "0.8.3",
     "sonarqube-scanner": "2.4.0",
-    "start-server-and-test": "1.7.11",
+    "start-server-and-test": "1.7.13",
     "stylelint": "9.10.1",
     "stylelint-config-standard": "18.3.0",
     "stylelint-no-unsupported-browser-features": "3.0.2",
