@@ -3,6 +3,7 @@ import './styles/App.css';
 import { Gallery } from './pages/GalleryPage';
 import { About } from './pages/AboutPage';
 import { Contact } from './pages/ContactPage'
+import { FormPage } from './pages/FormPage'
 import { BrowserRouter, Route, NavLink, Switch } from "react-router-dom";
 import { ParallaxEffect } from './components/ParallaxEffect/ParallaxEffect'
 
@@ -49,6 +50,9 @@ class App extends Component {
                   <li>
                     <NavLink to="/contact" id="contact-link">Contact</NavLink>
                   </li>
+                  <li>
+                    <NavLink to="/form" id="form-link">Form</NavLink>
+                  </li>
                 </nav>
               </header>
               <div id="page-body">
@@ -57,6 +61,7 @@ class App extends Component {
                     <Route path="/gallery" component={Gallery} />
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/form" component={FormPage} />
                     <Route component={NoMatch} />
                 </Switch>
               </div>
