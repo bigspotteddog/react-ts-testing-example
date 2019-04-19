@@ -8207,10 +8207,10 @@ jest-snapshot@^23.6.0:
     pretty-format "^23.6.0"
     semver "^5.5.0"
 
-jest-stare@1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/jest-stare/-/jest-stare-1.12.1.tgz#d1950ab85294fbe8f8aa810dd959b37d5158c8fd"
-  integrity sha512-UrWOSiLfOR6I3uUDJ9sRbrOBNXC6IDgGSB6NI7Pxkc6ZB18YAULNPJKsZbpU+5qrHg6U90ZK5KDNRrh/Fz5D8A==
+jest-stare@1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/jest-stare/-/jest-stare-1.13.2.tgz#8bc862ba65ca7dc25efea2e1b39632faa4bb1c29"
+  integrity sha512-R64MLXoR0j0B8QC8NMto5bfbaHMzzfVKECCzyvBtFJsMq1d6UgkcBsqQkWY9tXIrBMWxQ8VgomMooV9OJpeYGA==
   dependencies:
     ansi-parser "^3.2.9"
     bootstrap "^4.2.1"
