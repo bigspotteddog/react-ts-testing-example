@@ -120,7 +120,7 @@
     "stylelint": "9.10.1",
     "stylelint-config-standard": "18.2.0",
     "stylelint-no-unsupported-browser-features": "3.0.2",
-    "ts-jest": "24.0.0",
+    "ts-jest": "24.0.2",
     "ts-loader": "5.3.3",
     "tslint": "5.13.1",
     "tslint-config-prettier": "1.18.0",
