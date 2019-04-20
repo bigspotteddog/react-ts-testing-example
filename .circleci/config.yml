@@ -48,11 +48,6 @@ jobs:
 
       # # run the app!
       - run: make test-ci
-
-      - run:
-          name: Combine MochaAwesome Reports
-          when: always
-          command: make combine-reports     
       - store_test_results:
           path: cypress/reports
       - store_artifacts:
@@ -61,10 +56,14 @@ jobs:
           path: cypress/videos
       - store_artifacts:
           path: cypress/screenshots
-    #   - run:
-    #       name: Publish test artefacts s3 bucket
-    #       when: always
-    #       command: make publish-reports-s3
+      - run:
+          name: Combine MochaAwesome json Reports
+          when: always
+          command: make combine-reports
+      - run:
+          name: generate MochaAwesome html Reports
+          when: always
+          command: make generate-report 
       - run:
           name: Slack Custom Reporting
           when: always
