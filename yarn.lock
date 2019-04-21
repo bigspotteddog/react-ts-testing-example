@@ -9434,7 +9434,7 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@0.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.
   dependencies:
     minimist "0.0.8"
 
-mocha-junit-reporter@^1.18.0:
+mocha-junit-reporter@1.22.0:
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/mocha-junit-reporter/-/mocha-junit-reporter-1.22.0.tgz#4eee2f3318398bf424a64b7594ca7a39d924479c"
   integrity sha512-nRBCVxzYYhOqQr2XlByLRj5MAAy7djArRkGUSx9dGc+B9NMu4yCeo74uXKALAnMhXjuLmtAL9F8WGe3wQV30IA==
@@ -9445,7 +9445,7 @@ mocha-junit-reporter@^1.18.0:
     strip-ansi "^4.0.0"
     xml "^1.0.0"
 
-mocha-multi-reporters@^1.1.7:
+mocha-multi-reporters@1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/mocha-multi-reporters/-/mocha-multi-reporters-1.1.7.tgz#cc7f3f4d32f478520941d852abb64d9988587d82"
   integrity sha1-zH8/TTL0eFIJQdhSq7ZNmYhYfYI=
@@ -9470,7 +9470,7 @@ mocha@5.2.0:
     mkdirp "0.5.1"
     supports-color "5.4.0"
 
-mochawesome-merge@^1.0.7:
+mochawesome-merge@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/mochawesome-merge/-/mochawesome-merge-1.0.7.tgz#180819509873ca6fdbb215035706a19923740b29"
   integrity sha512-nwlqtU0ybGuF0hTv3muBJrTCAdhTDU5J18Ihn3If2ZeIl3a7T6ljw9GmbD4PwYtGQ6JM8eYmuLFaSgAnuy5PeQ==
@@ -9480,7 +9480,7 @@ mochawesome-merge@^1.0.7:
     uuid "^3.3.2"
     yargs "^12.0.5"
 
-mochawesome-report-generator@^3.0.1, mochawesome-report-generator@^3.1.5:
+mochawesome-report-generator@3.1.5, mochawesome-report-generator@^3.0.1:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/mochawesome-report-generator/-/mochawesome-report-generator-3.1.5.tgz#72c74d693c91884f7aeda29f7047e082769a4863"
   integrity sha512-/lFmlpY1cPfLXmV/Qb7kprbQS5VYExEaJGRR86rCLYUdLQM5uivIwvulUEt5VV9mbK/GttN2XPb8al7/5VgtOw==
