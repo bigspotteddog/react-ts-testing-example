@@ -1,6 +1,7 @@
 # A Typescript/React Website to demonstrate testing techniques
 
 [![CircleCI](https://circleci.com/gh/YOU54F/react-ts-testing-example.svg?style=svg)](https://circleci.com/gh/YOU54F/react-ts-testing-example)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95725660-7a3f-424b-a4bf-73a49e5e3ebb/deploy-status)](https://app.netlify.com/sites/react-ts/deploys)
 
 A website built with React and Typesecript, using a CSS grid layout, to demonstrate various testing techniques.
 
