@@ -28,7 +28,7 @@
     "lint-ts": "tslint --project .",
     "lint-css": "stylelint ./src/**/**/*.css",
     "lint-caniuse": "eslint ./build/**/**/**.js",
-    "lint-compat": "compat",
+    "lint-compat": "npx compat",
     "lint": "npm-run-all lint-ts lint-css lint-caniuse lint-compat"
   },
   "lint-staged": {
@@ -95,8 +95,8 @@
     "@types/react-dom": "16.8.4",
     "@types/react-router-dom": "4.3.2",
     "@types/react-test-renderer": "16.8.1",
-    "aws-sdk": "2.445.0",
-    "compat-cli": "0.1.3",
+    "aws-sdk": "2.441.0",
+    "compat-cli": "0.1.4",
     "cypress": "3.2.0",
     "cypress-cucumber-preprocessor": "1.11.0",
     "cypress-failed-log": "2.5.0",
